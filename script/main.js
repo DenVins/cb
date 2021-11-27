@@ -1,14 +1,14 @@
 // Run when the webpage is loaded
 window.addEventListener('load', () => {
   Swal.fire({
-    title: 'Are you sure to play music in background?',
+    title: 'mau sambil nyetel lagu ngga nips?',
     // text: "You won't be able to revert this!",
     icon: 'warning',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
-    confirmButtonText: 'Yes',
-    cancelButtonText: 'No',
+    confirmButtonText: 'Ya dong',
+    cancelButtonText: 'ngga ah',
   }).then((result) => {
     if (result.isConfirmed) {
       document.querySelector('.song').play();
